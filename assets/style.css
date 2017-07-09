@@ -1,3 +1,40 @@
 body{
 	background-color: lightgray;
 }
+
+.btn-social{
+	color: black;
+	font-size: 30px;
+
+	padding: 5px;
+
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 5px;
+	border-color: black;
+}
+
+.github:hover{
+	color: gray;
+	border-color: gray;
+}
+
+.codepen:hover{
+	color: gray;
+	border-color: gray;
+}
+
+.youtube:hover{
+	color: red;
+	border-color: red;
+}
+
+.twitch:hover{
+	color: darkviolet;
+	border-color: darkviolet;
+}
+
+.linkedin:hover{
+	color: #0077B5;
+	border-color: #0077B5;
+}
