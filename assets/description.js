@@ -42,7 +42,7 @@ document.addEventListener("touchmove", function(event){
 
 document.addEventListener("touchend", function(event){
 	if(event.touches.length == 0 && (orgX || orgX == 0) && (orgY || orgY == 0)){ // validate the situation
-		if(orgX <= window.innerWidth / 4){ // make sure the touch started on the left 1/4 of the screen
+		if(orgX <= window.innerWidth / 2){ // make sure the touch started on the left 1/4 of the screen
 			var div = $("#page-desc");
 			var touch = event.changedTouches[0];
 

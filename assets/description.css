@@ -6,7 +6,7 @@
 #page-desc{
 	position: fixed;
 	left: 10px;
-	width: 20%;
+	max-width: 65%;
 
 	top: 50%;
 	transform: translateY(-50%);
