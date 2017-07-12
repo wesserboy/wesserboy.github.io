@@ -1,0 +1,28 @@
+@keyframes fadeIn {
+	from {transform: translate(-100%, -50%); opacity: 0;}
+	to {transform: translate(0, -50%); opacity: 1;}
+}
+
+#page-desc{
+	position: fixed;
+	left: 10px;
+	width: 20%;
+
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.fade-in{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+}
+
+.fade-out{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-direction: reverse;
+}
+
+.hidden{
+	display: none;
+}
